@@ -20,6 +20,9 @@ public class App {
       System.out.println("Digite o nome da atividade " + (index + 1) + ":");
       String activityName = scanner.nextLine();
       System.out.println("Digite o peso da atividade " + (index + 1) + ":");
+      int activityWeight = Integer.parseInt(scanner.nextLine());
+
+      System.out.println("Digite a nota obtida para " + activityName + ":");
       int activityNote = Integer.parseInt(scanner.nextLine());
     }
 
